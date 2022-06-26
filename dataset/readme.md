@@ -5,6 +5,7 @@ dataset source: https://www.kaggle.com/cgurkan/airplane-crash-data-since-1908?se
 
 ## Updated dataset
 Added one column named "geopyLoc" which contains "geopy.location.Location" object,
+Added another column named "geopyRoute" which contains a list of at least two "geopy.location.Location" objects,
 
 extracted by "geopy.geocoders.Nominatim" after some minor data cleaning
 
